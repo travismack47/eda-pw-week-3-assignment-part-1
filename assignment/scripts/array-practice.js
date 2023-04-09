@@ -5,13 +5,13 @@ console.log('--- 1. Practice creating arrays ---');
 
 // Example: Array of animals
 let animalArray = ['fish', 'cat', 'bird', 'dog'];
-console.log('Animals are: ', animalArray);
+console.log('Animals are:', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
 let foodArray = ['wings', 'burgers', 'steak', 'shrimp'];
-console.log('My favorite foods are: ', foodArray);
+console.log('My favorite foods are:', foodArray);
 
 
 // 2. Array.length - tells you how many items are in the array
@@ -56,13 +56,13 @@ console.log(foodArray);
 // Example: Remove the last animal by using Array.pop
 let removedAnimal = animalArray.pop();
 console.log('Removed the last animal', removedAnimal);
-console.log('The animals are now', animalArray);
+console.log('The animals are now ', animalArray);
 
 // 4.b. TODO: Remove the food at the end of your array & 
 //      log both the food removed and the updated array
 let removedFood = foodArray.pop();
 console.log('Remove the last food', removedFood);
-console.log('The foods are now', foodArray);
+console.log('The foods are now ', foodArray);
 
 // Example: Add an animal to the beginning using Array.unshift
 animalArray.unshift('walrus');
@@ -75,13 +75,13 @@ console.log(foodArray);
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
 console.log('Removed the first animal', removedAnimal);
-console.log('The animals are now', animalArray);
+console.log('The animals are now ', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array & 
 //     log both the food removed and the updated array
 removedFood = foodArray.shift()
 console.log('Removed the first food', removedFood);
-console.log('The foods are now', foodArray);
+console.log('The foods are now ', foodArray);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
